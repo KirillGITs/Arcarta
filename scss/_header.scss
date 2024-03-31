@@ -1,0 +1,43 @@
+@import 'varibles';
+.header {
+  padding-top: 49px;
+  padding-bottom: 177px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 409px;
+
+  &__button {
+    > button {
+      padding: 13px 28px;
+      border-radius: 50px;
+      background-color: $color-orange;
+      color: $background-color-white;
+    }
+  }
+}
+.logo {
+}
+.list {
+  &__ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+  &__li {
+  }
+  &__link {
+    color: $color-gray;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+}
+.button {
+  > button {
+    padding: 13px 28px;
+    border-radius: 50px;
+    background-color: $color-orange;
+    color: $background-color-white;
+  }
+}

@@ -1,0 +1,70 @@
+.tiles {
+  padding-top: 132px;
+}
+
+.cards-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.card-block {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.08);
+  background: rgb(255, 250, 242);
+  text-align: center;
+  &:nth-child(-n + 2) {
+    height: 498px;
+  }
+  &:last-child {
+    height: 580px;
+  }
+  &__image {
+    padding-top: 51px;
+    padding-bottom: 26px;
+  }
+
+  &__title {
+    padding-bottom: 16px;
+  }
+
+  &__title-item {
+    color: rgb(50, 47, 46);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  &__text {
+    padding: 0 2px;
+  }
+
+  &__text-stylisation {
+    color: rgb(50, 47, 46);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  &__button {
+    padding-top: 35px;
+  }
+
+  &__button-item {
+    background-color: transparent;
+  }
+
+  &__button-text-stylisation {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    border: 2px solid rgb(225, 222, 217);
+    border-radius: 50px;
+    padding: 16px 38px;
+  }
+}

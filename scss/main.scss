@@ -1,0 +1,46 @@
+@import 'normalize';
+@import 'varibles';
+@import 'fonts';
+@import 'header';
+@import 'mixin';
+@import 'about';
+@import 'gallery';
+@import 'tiles';
+@import 'money';
+@import 'form';
+@import 'footer';
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+.background-color {
+  background-color: #fff8ee;
+}
+//.container::before {
+//  content: '';
+//  position: absolute;
+//  top: 0;
+//  left: 50.7%;
+//  width: 100vw;
+//  height: 46%;
+//  background-color: #fff8ee;
+//  z-index: -1;
+//  transform: translateX(-52%);
+//}
+//.container::after {
+//  content: '';
+//  position: absolute;
+//  top: 0;
+//  left: 50.7%;
+//  width: 100vw;
+//  height: 100%;
+//  background: linear-gradient(
+//      180deg,
+//      rgba(255, 255, 255, 0),
+//      rgb(255, 255, 255) 100%
+//    ),
+//    rgb(249, 238, 227);
+//  z-index: -1;
+//  transform: translateX(-51%);
+//}

@@ -1,0 +1,50 @@
+.money {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  &__image {
+    cursor: pointer;
+  }
+}
+
+.money-block {
+  width: 470px;
+  &__title {
+    padding-bottom: 25px;
+  }
+  &__title-item {
+    color: rgb(50, 47, 46);
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 62px;
+  }
+
+  &__text {
+    padding-bottom: 23px;
+  }
+
+  &__text-stylisation {
+    color: rgb(50, 47, 46);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 33px;
+  }
+
+  &__svg {
+    padding-bottom: 18px;
+  }
+  &__button {
+    > button {
+      background-color: transparent;
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+      border: 2px solid rgb(225, 222, 217);
+      border-radius: 50px;
+      padding: 16px 27px;
+    }
+  }
+}
